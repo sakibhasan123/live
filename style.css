@@ -1,0 +1,90 @@
+body{
+   background-image: linear-gradient(to right, blue, red);
+   text-align: center;
+}
+
+.dp{
+    width: 120px;
+   position: relative;
+   top: 150px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    animation:  3s ease-in-out infinite 0s alternate floating;
+    
+   
+}
+@keyframes floating {
+    from{
+        top: 150px;
+    }
+    to{
+        top: 120px;
+    }
+}
+
+h2{
+   position: relative;
+   top: 170px;
+   font-family: sans-serif;
+   font-weight: normal;
+    color: white;
+}
+
+.para1{
+    position: relative;
+    top: 160px;
+}
+
+.para2{
+   position: relative;
+  top: 135px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    position: relative;
+    top: 150px;
+}
+
+i{
+
+    padding: 10px;
+    color: wheat;
+}
+ i:hover{
+    color: white;
+    cursor: pointer;
+ }
+
+.container2{
+    width: 250px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: orangered;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icecream{
+    height: 40px;
+    color: whitesmoke;
+}
+
+.coffee{
+    font-family: cursive;
+    padding: 8px 20px 0 0;
+    color: whitesmoke;
+}
+
+.container2 div{
+    float: right;
+    background-color: rgb(201, 55, 1);
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 7px 7px 0;
+}
